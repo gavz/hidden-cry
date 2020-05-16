@@ -1,7 +1,6 @@
 # Hidden-Cry v1.0
-## Author: github.com/thelinuxchoice
-## IG: instagram.com/linux_choice
-### Don't copy this code without give me the credits, nerd! 
+## Author: https://github.com/thelinuxchoice
+## Twitter: https://twitter.com/linux_choice 
 
 Windows Crypter/Decrypter Generator with AES 256 bits key
 
@@ -9,7 +8,6 @@ Windows Crypter/Decrypter Generator with AES 256 bits key
 
 ### Features:
 ### Works on WAN: Port Forwarding by Serveo.net
-### Fully Undetectable (FUD) -> Don't Upload to virustotal.com!
 
 ## Legal disclaimer:
 
@@ -23,10 +21,9 @@ apt-get update & apt-get install mingw-w64 -y
 chmod +x hidden-cry
 ./hidden-cry
 ```
+## Instead uploading to virustotal.com, donate!
 
 ### Donate!
 Support the authors:
 ### Paypal:
 https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=CLKRT5QXXFJY4&source=url
-### LiberaPay:
-<noscript><a href="https://liberapay.com/thelinuxchoice/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
